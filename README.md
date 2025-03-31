@@ -2,13 +2,14 @@
 
 # Blog post web application
 
-A simple, full-stack web application built with React, Tailwind CSS, Node.js,Express.js and MongoDB. The application allows users to manage User accounts and view blogs.The Admin Users can add new blogs and manage them ,also one admin can create other admin account then they also manage posts.
+A simple, dashboard built with React, Tailwind CSS. The application allows users to manage User accounts and track user activities.
 
 ## Front-End:
 
 - built with Reactjs, Tailwind CSS.
 - Axios used for http manage
 - Used JWT token for authenticate users
+- Used React contex for state managment
 
 ## Setup Instructions
 
@@ -22,7 +23,7 @@ A simple, full-stack web application built with React, Tailwind CSS, Node.js,Exp
 
 ```bash
  git clone <repository-url>
- cd blog-frontend
+ cd Dashboard
 
 ```
 
